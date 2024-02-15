@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1488554378835-f7acf46e6c98?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mainBody{
+    width: 65%;
+    height: 80%;
+     background-color: rgba(125, 0, 0, 0.5);
+     box-shadow: 10px 10px 10px white;
+     padding: 15px;
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.first{
+    width:48%;
+    height: 100%;
+    background-color: rgba(34, 34, 58, 0.735);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+.text button{
+    background: none;
+    color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text p{
+    width: 70%;
+}
+
+.second{
+    width:48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.texts{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.texts h1{
+    color: rgb(0, 242, 255);
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texts input{
+    width: 300px;
+    height: 40px;
+    color: rgb(0, 242, 255);
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    margin: 10px;
+    padding: 5px;
+    background: none;
+}
+
+.texts button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.texts label{
+    color: aqua;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.image{
+display: flex;
+
+}
+
+.image img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
